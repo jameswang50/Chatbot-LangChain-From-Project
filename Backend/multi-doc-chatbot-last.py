@@ -12,7 +12,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.prompts import PromptTemplate
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-"
 
 documents = []
 for file in os.listdir("docs"):
